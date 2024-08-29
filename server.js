@@ -3,7 +3,7 @@ const app=express()
 // const port=process.env.PORT || 3000
 
 app.get("/api/get",(req,res)=>{
-    res.send({message:"node js aws deployment"})
+    res.send({message:"node js aws deployment",deploy:"your project is deploy"})
 })
 
 app.listen(8000,()=>{
